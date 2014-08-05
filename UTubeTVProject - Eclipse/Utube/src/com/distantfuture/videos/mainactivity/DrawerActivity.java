@@ -151,7 +151,8 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
 
     getMenuInflater().inflate(R.menu.main, menu);
 
-    MainApplication.getCastManager(this).addMediaRouterButton(menu, R.id.action_cast, this, true);
+    // MARKER Removed chrome cast manager
+    // MainApplication.getCastManager(this).addMediaRouterButton(menu, R.id.action_cast, this, true);
 
     if (!mContent.supportsDonate()) {
       item = menu.findItem(R.id.action_donate);

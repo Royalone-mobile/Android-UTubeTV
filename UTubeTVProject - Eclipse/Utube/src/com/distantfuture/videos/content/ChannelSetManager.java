@@ -83,6 +83,7 @@ public class ChannelSetManager {
     if (mChannelIDMap == null) {
       mChannelIDMap = new HashMap<ChannelCode, String>();
 
+      mChannelIDMap.put(ChannelCode.POPULAR, "UCF0pVplsI8R5kcAqgtoRqoA");
       mChannelIDMap.put(ChannelCode.CONNECTIONS, "UC07XXQh04ukEX68loZFgnVw");
       mChannelIDMap.put(ChannelCode.NEURO_SOUP, "UCf--Le-Ssa_R5ERoM7PbdcA");
       mChannelIDMap.put(ChannelCode.VICE, "UCn8zNIfYAQNdrFRrr8oibKw");
@@ -116,7 +117,7 @@ public class ChannelSetManager {
     return mChannelIDMap.get(code);
   }
 
-  private static enum ChannelCode {NEURO_SOUP, KHAN_ACADEMY, VSAUCE, SVB, ENGADGET, TWIT, TECH_CRUNCH, YOUNG_TURKS, XDA, CONNECTIONS, CODE_ORG, JUSTIN_BIEBER, THE_VERGE, REASON_TV, BIG_THINK, ANDROID_DEVELOPERS, PEWDIEPIE, YOUTUBE, VICE, TOP_GEAR, COLLEGE_HUMOR, ROGAN, LUKITSCH, NERDIST, RT, JET_DAISUKE, MAX_KEISER, GATES_FOUNDATION}
+  private static enum ChannelCode {NEURO_SOUP, KHAN_ACADEMY, VSAUCE, SVB, ENGADGET, TWIT, TECH_CRUNCH, YOUNG_TURKS, XDA, CONNECTIONS, CODE_ORG, JUSTIN_BIEBER, THE_VERGE, REASON_TV, BIG_THINK, ANDROID_DEVELOPERS, PEWDIEPIE, YOUTUBE, VICE, TOP_GEAR, COLLEGE_HUMOR, ROGAN, LUKITSCH, NERDIST, RT, JET_DAISUKE, MAX_KEISER, GATES_FOUNDATION, POPULAR}
 
 }
 
