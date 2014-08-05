@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<guide>
+    <page
+        icon="quick"
+        title="Quick Start"
+        >
+        <header append="app_name">Welcome to</header>
+        <text>Here's a quick guide to Help you get started.</text>
+        <text>If you want to try the app first and read this guide later, look in the Settings
+            window and click the "Quick Start" button.
+        </text>
+
+        <text>Swipe left to navigate to the next page.</text>
+    </page>
+
+    <page
+        icon="youtube"
+        title="YouTube Channels"
+        >
+        <text>This app is a video player for watching YouTube videos.</text>
+        <text>This app contains a collection of the top channels in it's category to get started,
+            but you can customize the list to contain your favorites.
+        </text>
+        <text>This specific app contains the following default YouTube channels.</text>
+
+        <header>Channels:</header>
+
+        <channels></channels>
+
+        <text>Check the google play store for more apps like this covering other categories.
+        </text>
+    </page>
+
+    <page
+        icon="navigation"
+        title="Navigation"
+        >
+        <text>This app tries to keep things as simple as possible and we try to follow the Android
+            design guidelines so things should be very familiar and easy to learn.
+        </text>
+        <header>Standard UI elements:</header>
+
+        <bullet>Scrolling cards UI</bullet>
+        <bullet>Side out navigation drawer</bullet>
+        <bullet>Action Bar</bullet>
+        <bullet>Swipe to dismiss</bullet>
+        <bullet>Pull to refresh</bullet>
+        <bullet>Integrated video player</bullet>
+
+        <text>If you swipe to dismiss an item, don't worry it's still there. Just click the action
+            menu in the action bar, choose 'Show hidden items' and click the cards you want to
+            unhide. Select 'Hide hidden items' in the menu to get back to normal.
+        </text>
+
+    </page>
+
+    <page
+        icon="basics"
+        title="The Basics"
+        >
+        <text>The first thing you'll see is the 'about page' of the default channel.</text>
+        <text>Every channel has an about page with an image and a description of the channel.</text>
+        <text>Click on the image or the "Watch Now" button. They both takes you to the channel's
+            list of playlists.
+        </text>
+        <text>A playlist is a collection of videos organized by the channel administrator.</text>
+        <text>Clicking on a playlist shows a list of videos. Clicking on a video plays the video.
+        </text>
+        <header>Changing channels</header>
+        <text>Changing channels is simple. Click on the popup menu control on the left side of the
+            action bar at the top of the screen.
+        </text>
+        <text>To navigate within the current channel. Show the slide out navigation drawer by
+            clicking the top left icon in the action bar, or by swiping from the left side of the
+            screen.
+        </text>
+        <text>The navigation drawer contains the About page, Playlists and Recent Uploads page.
+        </text>
+        <text>That's basically it, try it out and I'm sure you'll get the hang of it right away.
+        </text>
+    </page>
+
+    <page
+        icon="video"
+        title="Video player"
+        >
+        <text>When in portrait mode videos play in a custom video player. You can still scroll the
+            video list while a video is playing. Turning the phone to landscape mode seemlessly
+            continues playback without rebuffering.
+        </text>
+        <header>Features:</header>
+        <bullet>Skip 10 seconds ahead</bullet>
+        <bullet>Skip 10 seconds back</bullet>
+        <bullet>Mute button</bullet>
+        <bullet>Clicking duration pops down a custom scrub slider</bullet>
+
+    </page>
+
+    <page
+        icon="editing"
+        title="Editing the channels"
+        >
+        <text>The list of channels is only a default list to get you started. You can add or remove
+            any channels you like.
+        </text>
+        <text>Open the overflow menu on the right of the action bar and choose 'Edit channels'. To
+            remove a channel just hit the red minus button on any of the items. To add channels,
+            choose the find button in the action bar and search for channels. Hit the plus
+            button on the right of an item to add it.
+        </text>
+        <text>You can import your YouTube subscriptions if you already have a bunch of favorite
+            channels in there. Import and add or remove any channels as needed. Don't worry,
+            removing a channel here does not change your subscriptions on YouTube. This app simply
+            imports
+            the channel list from YouTube and doesn't edit your account in any way.
+        </text>
+
+    </page>
+
+    <page
+        icon="find"
+        title="Find"
+        >
+        <text>There is a find button in the Action Bar. This searches the current list and will
+            display any matches in the title or description for playlists and videos.
+        </text>
+        <text>The find feature only searches the current list and not every video or playlist
+            contained in all lists or channels.
+        </text>
+        <text>Why doesn't it search everything within the app? That would require downloading
+            everything all at once and the app only downloads data as lists are displayed. It's more
+            of a filter for the current list rather than a global search. This makes it both fast
+            and efficient.
+        </text>
+        <text>After viewing the find results, click the find button again to clear the current
+            search and display the whole list.
+        </text>
+
+    </page>
+
+    <page
+        icon="why"
+        title="Why is this better?"
+        >
+        <text>YouTube has an incredible selection of interesting videos. The problem is finding
+            those videos and keeping track of channels you like.
+        </text>
+        <text>Sure there are subscriptions, but after subscribing to dozens of channels, now you
+            have to navigate though a large subscription list every time you feel like watching a
+            video.
+        </text>
+        <text>Launching apps is the simplest most straight forward UI on a mobile device. It's
+            simple
+            and does one clear task. Wouldn't it be nice if you were in the mood for tech news you
+            could just click the tech news app?
+        </text>
+        <text>This is what this application attempts to do. Make watching videos a little bit
+            simpler.
+        </text>
+        <text>And there are additional apps just like this you can download that cover additional
+            topics.
+        </text>
+    </page>
+
+    <page
+        icon="suggestions"
+        title="Suggestions/Comments"
+        >
+
+        <text>We want to make this app better, but we'll need your help.</text>
+        <header>Questions:</header>
+        <bullet>Did I pick the best default channels?</bullet>
+        <bullet>Is it pleasant to use?</bullet>
+        <bullet>Feature request?</bullet>
+        <bullet>YouTube channel requests?</bullet>
+        <bullet>Bug reports?</bullet>
+        <text>Send me your ideas: distantfuturist@gmail.com</text>
+
+        <text>Thank you for trying my app!</text>
+
+    </page>
+
+</guide>

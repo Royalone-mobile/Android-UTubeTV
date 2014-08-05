@@ -1,0 +1,40 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_playlist_chooser">Choose Playlist</string>
+    <string name="title_activity_channel_lookup">Edit Channels</string>
+
+    <!-- Account Settings -->
+    <string name="pref_play_fullscreen">Play full screen</string>
+    <string name="pref_play_fullscreen_summary">Always play movies in full screen.</string>
+
+    <string name="pref_mute_ads">Mute ads</string>
+    <string name="pref_mute_ads_summary">Volume muted at start of ad, and restored at end.</string>
+
+    <string name="pref_show_hidden_items">Show hidden items</string>
+    <string name="pref_show_hidden_items_summary">Show all items including ones you\'ve hidden.</string>
+
+    <string name="pref_repeat_video">Repeat video</string>
+    <string name="pref_repeat_video_summary">Repeats video in a loop.</string>
+
+    <string name="pref_play_next_video">Play next video</string>
+    <string name="pref_play_next_video_summary">Automatically start the next video in the list.</string>
+
+    <!-- Share Settings -->
+    <string name="pref_sharing_facebook">Facebook</string>
+    <string name="pref_sharing_twitter">Twitter</string>
+
+    <string name="pref_header_about">About</string>
+    <string name="pref_title_privacy_policy">Privacy policy</string>
+    <string name="pref_title_tos">Terms of service</string>
+    <string name="pref_title_credits">Credits / Licenses</string>
+    <string name="pref_title_log">Change log</string>
+
+    <string name="pref_rate_app">Rate my app!</string>
+    <string name="pref_send_feedback">Send feedback</string>
+    <string name="pref_send_feedback_summary">How can we make this app better?</string>
+    <string name="pref_rate_app_summary">Please help by rating my app.</string>
+
+    <string name="pref_intro_title">Quick Start</string>
+    <string name="pref_intro_summary">How to use this app.</string>
+
+</resources>
