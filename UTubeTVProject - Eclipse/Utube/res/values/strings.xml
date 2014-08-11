@@ -6,7 +6,7 @@
     <string name="supports_channel_editing">false</string>
 
     <string-array name="content_array">
-        <item>YOUTUBE</item>
+        <item>MUSIC</item>
     </string-array>
 
     <string name="title_section1">Favorites</string>
