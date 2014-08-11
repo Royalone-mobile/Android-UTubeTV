@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Duh TV</string>
+    <string name="supports_donate">false</string>
+    <string name="supports_channel_editing">false</string>
+
+    <string-array name="content_array">
+        <item>MUSIC</item>
+    </string-array>
+
+    <string name="title_section1">Favorites</string>
+    <string name="title_section2">Search</string>
+    <string name="title_section3">Subscriptions</string>
+    <string name="action_search">Search</string>
+    <string name="action_search_channels">Search channels</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_cast">Cast</string>
+    <string name="action_more_apps">More TV apps</string>
+    <string name="action_show_hidden">Show hidden items</string>
+    <string name="action_hide_hidden">Hide hidden items</string>
+
+    <string name="action_default_channels">Restore defaults</string>
+    <string name="action_donate">Donate</string>
+    <string name="action_show_cast">Google cast</string>
+    <string name="action_show_rate_dialog">Rate dialog</string>
+    <string name="action_show_import_dialog">Import file</string>
+    <string name="action_import_subscriptions">Import subscriptions</string>
+    <string name="action_show_export_dialog">Export file</string>
+
+    <string name="action_color_picker">Pick a color</string>
+    <string name="action_channel_lookup">Edit channels</string>
+    <string name="action_intro">Intro</string>
+
+    <string name="action_show_icons">Show icons</string>
+    <string name="action_whats_new">What\'s new</string>
+
+    <string name="switch_view">Switch view</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="choose_channel">Choose a channel</string>
+    <string name="read_later">Read later</string>
+    <string name="thank_you">Thank You!</string>
+
+    <string-array name="view_styles">
+        <item>Dark</item>
+        <item>Light</item>
+        <item>Cards</item>
+        <item>Posters</item>
+    </string-array>
+
+    <string name="video_menu_open_in_youtube">Open in YouTube</string>
+    <string name="video_menu_hide">Hide</string>
+    <string name="search_channels">Search channels</string>
+    <string name="not_found">Not found</string>
+    <string name="watch_now">Watch Now</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="now_playing">Now Playing</string>
+
+    <string name="chromecast_app_id">6142AE0B</string>
+    <string name="donate_message">
+        Help support our late night coding sessions by donating one of the following delicious items:
+    </string>
+    <string name="donate_thanks">
+        The Gods of code smile upon thee&#8230;\nThank you!
+    </string>
+
+    <string-array name="donations_array">
+        <item>Chips and salsa - $1</item>
+        <item>Mexican Coke - $2</item>
+        <item>Taco - $3</item>
+        <item>Nachos - $5</item>
+        <item>Burrito - $7</item>
+        <item>Fajitas - $10</item>
+    </string-array>
+
+</resources>

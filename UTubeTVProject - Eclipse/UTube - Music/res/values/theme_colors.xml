@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar_start_color">#fff</color>
+    <color name="action_bar_end_color">#ddd</color>
+    <color name="action_bar_divider_color">#ddd</color>
+
+    <color name="window_background_color">#ffe1e1e1</color>
+
+    <color name="card_frame_color">#2000</color>
+    <color name="card_fill_color">#fff</color>
+    <color name="card_image_fill">#2000</color>
+    <color name="card_shadow_color">#2000</color>
+
+    <color name="card_title_color">#222</color>
+    <color name="card_description_color">#444</color>
+
+    <color name="drawer_background">#deee</color>
+    <color name="drawer_item_background">@color/holo_blue</color>
+    <color name="drawer_divider_color">#2000</color>
+    <color name="drawer_icon_color">#111</color>
+    <color name="drawer_text">#000</color>
+
+    <color name="grid_selection">#3000</color>
+    <color name="empty_view_text_color">#000</color>
+
+    <integer name="title_max_lines">2</integer>
+    <integer name="description_max_lines">3</integer>
+</resources>
+

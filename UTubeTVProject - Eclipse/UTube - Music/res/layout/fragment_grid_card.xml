@@ -1,0 +1,20 @@
+<com.distantfuture.videos.misc.FragmentLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent">
+
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout
+        android:id="@+id/grid_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridView
+            android:id="@+id/gridview"
+            style="@style/GridDefaults.Card"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <include layout="@layout/empty_view_grid"/>
+
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+</com.distantfuture.videos.misc.FragmentLayout>

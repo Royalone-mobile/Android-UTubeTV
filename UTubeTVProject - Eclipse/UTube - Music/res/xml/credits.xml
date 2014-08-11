@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<credits>
+    <credit no_background="true">
+        <header
+            link="http://distantfutu.re"
+            size="26">
+            Distant Future
+        </header>
+        <header top_margin="-10">
+            App Design Studio
+        </header>
+
+        <text
+            link="https://maps.google.com/maps?q=16th+St.+Mission,+Mission+Street,+SF,+CA&amp;hl=en&amp;ll=37.745064,-122.431297&amp;spn=0.139812,0.253029&amp;sll=37.748593,-122.432327&amp;sspn=0.139805,0.253029&amp;oq=+16th+and+mission,+SF&amp;t=k&amp;gl=us&amp;z=13">
+            San Francisco, CA
+        </text>
+
+        <header
+            link="mailto:distantfuturist@gmail.com">
+            Contact us
+        </header>
+    </credit>
+
+    <credit group="true">
+        <header>
+            Included Libraries
+        </header>
+
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/nhaarman/ListViewAnimations">
+            ListViewAnimations
+        </header>
+        <text
+            copy="2014"
+            link="mailto:haarman.niek@gmail.com">
+            Niek Haarman
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/chrisbanes/ActionBar-PullToRefresh">
+            ActionBar-PullToRefresh
+        </header>
+        <text
+            copy="2014"
+            link="http://chris.banes.me">
+            Chris Banes
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/atermenji/IconicDroid">
+            IconicDroid
+        </header>
+        <text
+            copy="2014"
+            link="mailto:atermenji@gmail.com">
+            Artur Termenji
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/square/picasso">
+            Picasso
+        </header>
+        <text
+            copy="2014"
+            link="https://squareup.com">
+            Square Inc
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="http://www.joda.org/joda-time">
+            Joda-Time
+        </header>
+        <text
+            copy="2014"
+            link="http://www.joda.org">
+            joda.org
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="http://ocpsoft.org/prettytime">
+            PrettyTime
+        </header>
+        <text
+            copy="2014"
+            link="http://ocpsoft.org">
+            ocpsoft
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/castorflex/SmoothProgressBar">
+            SmoothProgressBar
+        </header>
+        <text
+            copy="2014"
+            link="mailto:merle.antoine@gmail.com">
+            Antoine Merle
+        </text>
+        <text
+            link="http://people.freebsd.org/~phk">
+            BEER-WARE License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/codechimp-org/AppRater">
+            AppRater
+        </header>
+        <text
+            copy="2014"
+            link="mailto:andrew@codechimp.org">
+            Andrew Jackson
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://developers.google.com/api-client-library/java/apis/youtube/v3">
+            YouTube Data API
+        </header>
+        <text
+            copy="2014"
+            link="http://google.com">
+            Google
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://developers.google.com/youtube/android/player">
+            YouTube Android Player API
+        </header>
+        <text
+            copy="2014"
+            link="http://google.com">
+            Google
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/soarcn/UndoBar">
+            UndoBar
+        </header>
+        <text
+            copy="2014"
+            link="https://github.com/soarcn">
+            soarcn
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/MartinvanZ/Inscription">
+            Inscription
+        </header>
+        <text
+            copy="2014"
+            link="http://martin.cubeactive.com/inscription">
+            Martin van Zuilekom
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/JakeWharton/DiskLruCache">
+            DiskLruCache
+        </header>
+        <text
+            copy="2014"
+            link="mailto:jakewharton@gmail.com">
+            Jake Wharton
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="https://github.com/greenrobot/EventBus">
+            EventBus
+        </header>
+        <text
+            copy="2014"
+            link="http://greenrobot.de">
+            Markus Junginger
+        </text>
+        <text
+            link="http://www.apache.org/licenses/LICENSE-2.0">
+            Apache License
+        </text>
+    </credit>
+
+    <credit group="true">
+        <header>
+            Included Resources
+        </header>
+    </credit>
+
+    <credit>
+        <header
+            link="http://subtlepatterns.com">
+            subtlepatterns.com
+        </header>
+        <text
+            copy="2014"
+            link="http://www.atlemo.com">
+            Atle Mo
+        </text>
+        <text
+            link="http://subtlepatterns.com/about">
+            Free License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="http://www.patterncooler.com">
+            patterncooler.com
+        </header>
+        <text
+            copy="2014"
+            link="mailto:h_@patterncooler.com">
+            Pattern Cooler
+        </text>
+        <text
+            link="http://www.patterncooler.com">
+            Free License
+        </text>
+    </credit>
+
+    <credit>
+        <header
+            link="http://www.grsites.com/archive/textures">
+            Free Textures
+        </header>
+        <text
+            copy="2014"
+            link="http://www.grsites.com">
+            grsites.com
+        </text>
+        <text
+            link="http://www.grsites.com/terms">
+            Free License
+        </text>
+    </credit>
+    <credit>
+        <header
+            link="http://www.visualpharm.com">
+            App Icon
+        </header>
+        <text
+            copy="2014"
+            link="http://www.visualpharm.com">
+            visualpharm
+        </text>
+        <text>
+            Linkware
+        </text>
+    </credit>
+
+</credits>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:left="2dp"
+        android:right="2dp"
+        android:top="15dp"
+        >
+
+        <!--assuming stroke is less drawing than a solid fill?
+            stroke works on KitKat, but alpha is ignored on JellyBean, so reverted back to solid
+            was stroke with android:width="2dp"
+        -->
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp"/>
+            <solid
+                android:width="2dp"
+                android:color="@color/card_shadow_color"/>
+        </shape>
+    </item>
+
+    <item
+        android:bottom="2dp"
+        android:top="10dp"
+        >
+
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp"/>
+            <stroke
+                android:width="1dp"
+                android:color="@color/card_frame_color"/>
+            <solid android:color="@color/card_fill_color"/>
+        </shape>
+    </item>
+
+</layer-list>

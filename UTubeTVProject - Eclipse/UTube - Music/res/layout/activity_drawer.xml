@@ -1,0 +1,51 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- wrapped this in another layout since drawerLayout will resize it's children to fill the window automatically
+         Player would get resized incorrectly -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <!-- As the main content view, the view below consumes the entire
+          space available using match_parent in both dimensions. -->
+        <FrameLayout
+            android:id="@+id/fragment_holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!-- shared video player.  Invisible until needed -->
+        <include layout="@layout/youtube_player"/>
+
+    </RelativeLayout>
+
+    <!-- android:layout_gravity="start" tells DrawerLayout to treat
+     this as a sliding drawer on the left side for left-to-right
+     languages and on the right side for right-to-left languages.
+     The drawer is given a fixed width in dp and extends the full height of
+     the container. A solid background is used for contrast
+     with the content view. -->
+    <LinearLayout
+        android:id="@+id/drawer_container"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/default_drawer_background"
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/drawer_divider_background"
+            android:dividerHeight="1dp"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

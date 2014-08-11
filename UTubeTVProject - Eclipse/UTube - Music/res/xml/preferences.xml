@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.distantfuture.videos.misc.SwitchPref
+        android:defaultValue="false"
+        android:key="play_fullscreen"
+        android:summary="@string/pref_play_fullscreen_summary"
+        android:title="@string/pref_play_fullscreen"/>
+
+    <com.distantfuture.videos.misc.SwitchPref
+        android:defaultValue="false"
+        android:key="mute_ads"
+        android:summary="@string/pref_mute_ads_summary"
+        android:title="@string/pref_mute_ads"/>
+
+    <com.distantfuture.videos.misc.SwitchPref
+        android:defaultValue="false"
+        android:key="repeat_video"
+        android:summary="@string/pref_repeat_video_summary"
+        android:title="@string/pref_repeat_video"/>
+
+    <com.distantfuture.videos.misc.SwitchPref
+        android:defaultValue="false"
+        android:key="play_next"
+        android:summary="@string/pref_play_next_video_summary"
+        android:title="@string/pref_play_next_video"/>
+
+    <Preference
+        android:key="intro"
+        android:summary="@string/pref_intro_summary"
+        android:title="@string/pref_intro_title"
+        />
+    <Preference
+        android:key="rate"
+        android:summary="@string/pref_rate_app_summary"
+        android:title="@string/pref_rate_app"/>
+    <Preference
+        android:key="feedback"
+        android:summary="@string/pref_send_feedback_summary"
+        android:title="@string/pref_send_feedback"/>
+    <Preference
+        android:key="log"
+        android:title="@string/pref_title_log"/>
+    <Preference
+        android:key="credits"
+        android:title="@string/pref_title_credits"/>
+</PreferenceScreen>
+
+
+
+
