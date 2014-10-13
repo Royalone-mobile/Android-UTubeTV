@@ -3,15 +3,16 @@ package com.distantfuture.videos.misc;
 import android.app.Application;
 import android.content.Context;
 
-import com.distantfuture.castcompanionlibrary.lib.cast.VideoCastManager;
-import com.distantfuture.castcompanionlibrary.lib.utils.CastUtils;
+// import com.distantfuture.castcompanionlibrary.lib.cast.VideoCastManager;
+// import com.distantfuture.castcompanionlibrary.lib.utils.CastUtils;
 import com.google.android.gms.cast.CastMediaControlIntent;
 
 public class MainApplication extends Application {
   public static final double VOLUME_INCREMENT = 0.05;
   private static String sApplicationID;
-  private static VideoCastManager sCastManager = null;
-
+  // MARKER - REMOVED CAST SCRIPTS
+  //  private static VideoCastManager sCastManager = null;
+  /* 
   public static VideoCastManager getCastManager(Context context) {
     if (null == sCastManager) {
       sCastManager = VideoCastManager.initialize(context, sApplicationID, null);
@@ -30,12 +31,13 @@ public class MainApplication extends Application {
 
     return sCastManager;
   }
+  */ 
 
   @Override
   public void onCreate() {
     super.onCreate();
-    sApplicationID = CastMediaControlIntent.DEFAULT_MEDIA_RECEIVER_APPLICATION_ID; // "6142AE0B"; // "5A3D7A5C";
-    CastUtils.saveFloatToPreference(getApplicationContext(), VideoCastManager.PREFS_KEY_VOLUME_INCREMENT, (float) VOLUME_INCREMENT);
+    // sApplicationID = CastMediaControlIntent.DEFAULT_MEDIA_RECEIVER_APPLICATION_ID; // "6142AE0B"; // "5A3D7A5C";
+    // CastUtils.saveFloatToPreference(getApplicationContext(), VideoCastManager.PREFS_KEY_VOLUME_INCREMENT, (float) VOLUME_INCREMENT);
   }
 
 }

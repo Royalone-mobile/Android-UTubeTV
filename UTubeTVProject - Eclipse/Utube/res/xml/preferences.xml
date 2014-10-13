@@ -23,7 +23,7 @@
         android:key="play_next"
         android:summary="@string/pref_play_next_video_summary"
         android:title="@string/pref_play_next_video"/>
-
+	<!-- 
     <Preference
         android:key="intro"
         android:summary="@string/pref_intro_summary"
@@ -43,6 +43,7 @@
     <Preference
         android:key="credits"
         android:title="@string/pref_title_credits"/>
+         -->
 </PreferenceScreen>
 
 

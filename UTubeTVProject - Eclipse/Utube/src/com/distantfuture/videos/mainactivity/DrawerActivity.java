@@ -1,6 +1,6 @@
 package com.distantfuture.videos.mainactivity;
 
-import org.codechimp.apprater.AppRater;
+// import org.codechimp.apprater.AppRater;
 
 import android.app.ActionBar;
 import android.app.ActivityOptions;
@@ -16,7 +16,7 @@ import com.distantfuture.iconicdroid.IconicActivity;
 import com.distantfuture.videos.R;
 import com.distantfuture.videos.activities.SettingsActivity;
 import com.distantfuture.videos.activities.ViewServerActivity;
-import com.distantfuture.videos.cast.CastActivity;
+// import com.distantfuture.videos.cast.CastActivity;
 import com.distantfuture.videos.channellookup.ChannelLookupActivity;
 import com.distantfuture.videos.content.Content;
 import com.distantfuture.videos.donate.DonateActivity;
@@ -24,7 +24,7 @@ import com.distantfuture.videos.introactivity.IntroActivity;
 import com.distantfuture.videos.misc.ActionBarSpinnerAdapter;
 import com.distantfuture.videos.misc.AppUtils;
 import com.distantfuture.videos.misc.BusEvents;
-import com.distantfuture.videos.misc.ColorPickerFragment;
+// import com.distantfuture.videos.misc.ColorPickerFragment;
 import com.distantfuture.videos.misc.Constants;
 import com.distantfuture.videos.misc.MainApplication;
 import com.distantfuture.videos.misc.Utils;
@@ -92,7 +92,7 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
     selectSection(mContent.savedSectionIndex(), false);
 
     if (Constants.showAppRater) {
-      AppRater.app_launched(this);
+      // MARKER REMOVED APPRATER   AppRater.app_launched(this);
     }
 
     // general app tweaks
@@ -155,8 +155,8 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
     // MainApplication.getCastManager(this).addMediaRouterButton(menu, R.id.action_cast, this, true);
 
     if (!mContent.supportsDonate()) {
-      item = menu.findItem(R.id.action_donate);
-      item.setVisible(false);
+      // marker removed donate    item = menu.findItem(R.id.action_donate);
+      // marker removed donate    item.setVisible(false);
     }
 
     if (!mContent.supportsChannelEditing()) {
@@ -245,7 +245,7 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
 
   @Override
   public boolean onPrepareOptionsMenu(Menu menu) {
-    MenuItem item = menu.findItem(R.id.action_show_hidden);
+    /* marker removed    MenuItem item = menu.findItem(R.id.action_show_hidden);
 
     if (item != null) {
       boolean showHidden = AppUtils.instance(this).showHiddenItems();
@@ -256,6 +256,9 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
     boolean showDevTools = AppUtils.instance(this).showDevTools();
     menu.setGroupVisible(R.id.dev_tools_group, showDevTools);
 
+	*/ 
+	  
+	  
     return super.onPrepareOptionsMenu(menu);
   }
 
@@ -281,6 +284,7 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
         SettingsActivity.show(DrawerActivity.this);
         return true;
 
+      /*  marker removed
       case R.id.action_show_hidden: {
         boolean toggle = AppUtils.instance(this).showHiddenItems();
         AppUtils.instance(this).setShowHiddenItems(!toggle);
@@ -293,7 +297,7 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
       case R.id.action_more_apps:
         Utils.openWebPage(this, Utils.getCompanyPlayStoreUri());
         return true;
-
+	   
       case R.id.action_switch_view:
         AppUtils.pickViewStyleDialog(this);
         return true;
@@ -310,20 +314,23 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
         AppRater.showRateDialog(this);
         return true;
 
+         marker removed cast and donate
       case R.id.action_show_cast:
         intent = new Intent();
         intent.setClass(DrawerActivity.this, CastActivity.class);
         startActivity(intent);
         return true;
-
+        
       case R.id.action_donate:
         DonateActivity.show(this);
         return true;
-
+		*/ 
+        
       case R.id.action_channel_lookup:
         ChannelLookupActivity.show(this);
         return true;
 
+      /*
       case R.id.action_whats_new:
         WhatsNewDialog.showWhatsNew(this, true);
         return true;
@@ -332,7 +339,8 @@ public class DrawerActivity extends ViewServerActivity implements DrawerActivity
         Fragment fragment = new ColorPickerFragment();
         Utils.showFragment(this, fragment, R.id.fragment_holder, 0, true);
         return true;
-      }
+         
+      } */
     }
 
     return super.onOptionsItemSelected(item);

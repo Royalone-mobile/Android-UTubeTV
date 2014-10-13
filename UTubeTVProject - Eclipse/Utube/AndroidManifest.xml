@@ -10,10 +10,14 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- 
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    -->
 
     <application
         android:name="com.distantfuture.videos.misc.MainApplication"
@@ -67,10 +71,12 @@
             android:label=""
             android:theme="@style/IntroActivityTheme" >
         </activity>
+        <!-- 
         <activity
             android:name="com.distantfuture.videos.activities.CreditsActivity"
             android:label="@string/pref_title_credits" >
         </activity>
+         -->
         <activity
             android:name=".activities.StorageAccessActivity"
             android:label="" >
@@ -98,6 +104,8 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        
+                <!-- 
         <activity
             android:name="com.distantfuture.castcompanionlibrary.lib.cast.player.VideoCastControllerActivity"
             android:label="Cast"
@@ -105,6 +113,7 @@
             android:parentActivityName="com.distantfuture.videos.cast.CastActivity"
             android:screenOrientation="portrait" >
         </activity>
+
 
         <receiver android:name="com.distantfuture.castcompanionlibrary.lib.utils.VideoIntentReceiver" >
             <intent-filter>
@@ -114,7 +123,7 @@
                 <action android:name="com.distantfuture.castcompanionlibrary.lib.action.stop" />
             </intent-filter>
         </receiver>
-
+		
         <service
             android:name="com.distantfuture.castcompanionlibrary.lib.utils.VideoCastNotificationService"
             android:exported="false" >
@@ -124,6 +133,7 @@
                 <action android:name="com.distantfuture.castcompanionlibrary.lib.action.notificationvisibility" />
             </intent-filter>
         </service>
+         -->
     </application>
 
 </manifest>

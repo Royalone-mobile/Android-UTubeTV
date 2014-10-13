@@ -8,9 +8,9 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.View;
 
-import com.distantfuture.castcompanionlibrary.lib.cast.VideoCastManager;
-import com.distantfuture.castcompanionlibrary.lib.cast.callbacks.VideoCastConsumerImpl;
-import com.distantfuture.castcompanionlibrary.lib.utils.MiniController;
+//import com.distantfuture.castcompanionlibrary.lib.cast.VideoCastManager;
+//import com.distantfuture.castcompanionlibrary.lib.cast.callbacks.VideoCastConsumerImpl;
+//import com.distantfuture.castcompanionlibrary.lib.utils.MiniController;
 import com.distantfuture.videos.R;
 import com.distantfuture.videos.misc.DUtils;
 import com.distantfuture.videos.misc.MainApplication;
@@ -19,7 +19,7 @@ import com.google.android.gms.cast.ApplicationMetadata;
 import com.google.android.gms.cast.MediaInfo;
 import com.google.android.gms.cast.MediaMetadata;
 import com.google.android.gms.common.images.WebImage;
-
+/* MARKER - REMOVED CAST
 public class CastActivity extends FragmentActivity {
   private static final String TAG = "CastActivity";
   private static String TAG_MEDIA = "videos";
@@ -219,7 +219,7 @@ public class CastActivity extends FragmentActivity {
   public boolean onCreateOptionsMenu(Menu menu) {
     super.onCreateOptionsMenu(menu);
     getMenuInflater().inflate(R.menu.cast_menu, menu);
-    mCastManager.addMediaRouterButton(menu, R.id.action_cast, this, false);
+    // Marker removed cast  mCastManager.addMediaRouterButton(menu, R.id.action_cast, this, false);
     return true;
   }
 
@@ -227,4 +227,4 @@ public class CastActivity extends FragmentActivity {
     PLAYING, PAUSED, BUFFERING, IDLE
   }
 
-}
+}*/ 

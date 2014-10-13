@@ -1,10 +1,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    	<!--  Marker removed dev tools option
     <com.distantfuture.videos.misc.SwitchPref
         android:defaultValue="false"
         android:key="show_dev_tools"
         android:title="Show Dev Tools"/>
-
+ 		-->
 </PreferenceScreen>
 
 

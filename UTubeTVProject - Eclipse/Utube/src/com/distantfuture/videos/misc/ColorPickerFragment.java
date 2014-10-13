@@ -9,11 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.distantfuture.videos.R;
-import com.larswerkman.holocolorpicker.ColorPicker;
-import com.larswerkman.holocolorpicker.OpacityBar;
-import com.larswerkman.holocolorpicker.SVBar;
-import com.larswerkman.holocolorpicker.SaturationBar;
-import com.larswerkman.holocolorpicker.ValueBar;
+// import com.larswerkman.holocolorpicker.ColorPicker;
+// import com.larswerkman.holocolorpicker.OpacityBar;
+// import com.larswerkman.holocolorpicker.SVBar;
+// import com.larswerkman.holocolorpicker.SaturationBar;
+// import com.larswerkman.holocolorpicker.ValueBar;
 
 // set custom color
 //    String customColor = AppUtils.instance().getPref(AppUtils.ACTION_BAR_COLOR, null);
@@ -22,6 +22,7 @@ import com.larswerkman.holocolorpicker.ValueBar;
 //      getActionBar().setBackgroundDrawable(new ColorDrawable(color));
 //    }
 
+/*  MARKER - REMOVED COLOR PICKER
 public class ColorPickerFragment extends Fragment implements ColorPicker.OnColorChangedListener {
   private int mLastColor;
 
@@ -73,3 +74,4 @@ public class ColorPickerFragment extends Fragment implements ColorPicker.OnColor
     }
   }
 }
+*/ 

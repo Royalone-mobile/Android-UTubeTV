@@ -16,7 +16,7 @@ import com.distantfuture.videos.misc.DUtils;
 import com.distantfuture.videos.misc.Utils;
 import com.inscription.ChangeLogDialog;
 
-import org.codechimp.apprater.AppRater;
+// import org.codechimp.apprater.AppRater;
 
 public class SettingsActivity extends Activity {
 
@@ -76,7 +76,7 @@ public class SettingsActivity extends Activity {
         addPreferencesFromResource(R.xml.preferences_debug);
 
       try {
-        Preference pref = findPreference("credits");
+        /* marker removed  credits  Preference pref = findPreference("credits");
 
         if (pref != null) {
           pref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
@@ -86,8 +86,9 @@ public class SettingsActivity extends Activity {
             }
           });
         }
+        */ 
 
-        pref = findPreference("rate");
+        Preference pref = findPreference("rate");   // marker added Preference 
         if (pref != null) {
 
           if (!Constants.showAppRater) {
@@ -145,10 +146,10 @@ public class SettingsActivity extends Activity {
       if (preference.getKey().equals("credits")) {
         CreditsActivity.show(getActivity());
         return true;
-      } else if (preference.getKey().equals("rate")) {
+      } /* MARKER REMOVED APP RATER  else if (preference.getKey().equals("rate")) {
         AppRater.rateNow(getActivity());
         return true;
-      } else if (preference.getKey().equals("log")) {
+      } */ else if (preference.getKey().equals("log")) {
         ChangeLogDialog.showChangeLog(getActivity());
         return true;
       } else if (preference.getKey().equals("intro")) {
