@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/channel_list_fragment"
-        class="com.distantfuture.videos.channellookup.ChannelLookupListFragment"
+        class="com.klogicapps.tv.channellookup.ChannelLookupListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </LinearLayout>

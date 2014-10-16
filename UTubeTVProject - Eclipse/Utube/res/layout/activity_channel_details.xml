@@ -10,7 +10,7 @@
 
         android:padding="12dp">
 
-        <com.distantfuture.videos.imageutils.ResizingImageView
+        <com.klogicapps.tv.imageutils.ResizingImageView
             android:id="@+id/channel_thumbnail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

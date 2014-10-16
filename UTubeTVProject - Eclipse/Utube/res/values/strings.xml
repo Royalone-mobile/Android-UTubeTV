@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Duh TV</string>
+    <string name="app_name">PewDiePie TV</string>
     <string name="supports_donate">false</string>
     <string name="supports_channel_editing">false</string>
 

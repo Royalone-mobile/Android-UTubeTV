@@ -16,7 +16,7 @@
 
     <fragment
         android:id="@+id/youtube_fragment"
-        android:name="com.distantfuture.videos.youtube.VideoPlayerFragment"
+        android:name="com.klogicapps.tv.youtube.VideoPlayerFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

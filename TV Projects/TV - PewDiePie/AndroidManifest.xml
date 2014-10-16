@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.klogicapps.tv.pewdiepie"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="20" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- 
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    -->
+
+    <application
+        android:name="com.klogicapps.tv.ApplicationMain"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.klogicapps.tv.mainactivity.DrawerActivity"
+            android:configChanges="orientation|keyboard|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/DrawerActivityStartupTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.klogicapps.tv.activities.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".channellookup.ChannelLookupActivity"
+            android:label="@string/title_activity_channel_lookup" >
+        </activity>
+        <activity
+            android:name="com.klogicapps.tv.activities.AuthActivity"
+            android:label="Auth"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.klogicapps.tv.activities.InfoActivity"
+            android:label="" >
+            <intent-filter>
+                <action android:name="rs.klogicapps.tv.activities.InfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.klogicapps.tv.cast.CastActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".donate.DonateActivity"
+            android:label="@string/action_donate" >
+        </activity>
+        <activity
+            android:name="com.klogicapps.tv.introactivity.IntroActivity"
+            android:label=""
+            android:theme="@style/IntroActivityTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.klogicapps.tv.activities.ActivityVideoPlayer"
+            android:configChanges="orientation|keyboardHidden|screenSize"  
+            android:label="@string/app_name" /> <!-- android:icon="@drawable/ic_launcher_logo" --> 
+       
+        <activity
+            android:name="com.keyes.youtube.OpenYouTubePlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"  
+            android:label="@string/app_name" 
+            />          
+                
+               
+        <!-- 
+        <activity
+            android:name="com.distantfuture.videos.activities.CreditsActivity"
+            android:label="@string/pref_title_credits" >
+        </activity>
+         -->
+        <activity
+            android:name=".activities.StorageAccessActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".channellookup.ChannelDetailsActivity"
+            android:label="Channel Details"
+            android:theme="@style/ChannelDetailsDialogStyle" >
+        </activity>
+        
+         
+        <service
+            android:name=".services.YouTubeService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <provider
+            android:name="com.klogicapps.tv.database.YouTubeContentProvider"
+            android:authorities="com.klogicapps.tv.provider"
+            android:enabled="true"
+            android:exported="false"
+            android:multiprocess="true" >
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        
+                <!-- 
+        <activity
+            android:name="com.distantfuture.castcompanionlibrary.lib.cast.player.VideoCastControllerActivity"
+            android:label="Cast"
+            android:launchMode="singleTask"
+            android:parentActivityName="com.distantfuture.videos.cast.CastActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+        <receiver android:name="com.distantfuture.castcompanionlibrary.lib.utils.VideoIntentReceiver" >
+            <intent-filter>
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="com.distantfuture.castcompanionlibrary.lib.action.toggleplayback" />
+                <action android:name="com.distantfuture.castcompanionlibrary.lib.action.stop" />
+            </intent-filter>
+        </receiver>
+		
+        <service
+            android:name="com.distantfuture.castcompanionlibrary.lib.utils.VideoCastNotificationService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.distantfuture.castcompanionlibrary.lib.action.toggleplayback" />
+                <action android:name="com.distantfuture.castcompanionlibrary.lib.action.stop" />
+                <action android:name="com.distantfuture.castcompanionlibrary.lib.action.notificationvisibility" />
+            </intent-filter>
+        </service>
+         -->
+    </application>
+
+</manifest>
