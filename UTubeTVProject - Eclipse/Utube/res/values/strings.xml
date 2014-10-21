@@ -75,5 +75,15 @@
         <item>Burrito - $7</item>
         <item>Fajitas - $10</item>
     </string-array>
+    
+    <!-- AdView Stuff -->
+    <!-- Google Ad Variables -->
+    <string name="ad_unit_id_banner"></string>
+    <string name="ad_unit_id_interstitial"></string>
+    <!-- Google Ad Variables BB -->
+    <string name="ad_unit_id_banner_bb"></string>
+    <string name="ad_unit_id_interstitial_bb"></string>
+    <!-- Amazon Ad Variables -->
+    <string name="ad_api_key"></string>
 
 </resources>
