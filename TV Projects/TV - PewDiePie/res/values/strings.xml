@@ -6,6 +6,16 @@
     <string-array name="content_array">
         <item>PEWDIEPIE</item>
     </string-array>
+    
+    <!-- AdView Stuff -->
+    <!-- Google Ad Variables -->
+    <string name="ad_unit_id_banner"></string>
+    <string name="ad_unit_id_interstitial">ca-app-pub-7495564315197449/2441357213</string>
+    <!-- Google Ad Variables BB -->
+    <string name="ad_unit_id_banner_bb"></string>
+    <string name="ad_unit_id_interstitial_bb">ca-app-pub-7495564315197449/2441357213</string>
+	<!-- Amazon Ad Variables -->
+    <string name="ad_api_key">d4d10ce220da42159fa1ee6f28ca927b</string>
 
 
 </resources>
